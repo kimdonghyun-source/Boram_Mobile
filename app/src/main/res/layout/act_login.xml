@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/login_bg">
+    android:background="@drawable/boram_login1">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
                     android:padding="10dp"
-                    android:layout_gravity="center"
+                    android:layout_marginTop="125dp"
                     android:orientation="vertical"
                     android:background="@drawable/fill_rect_666666">
                     <TextView
@@ -79,6 +79,7 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="10dp"
                             android:padding="10dp"
+                            android:text="1234"
                             android:textSize="16dp"
                             android:hint="비밀번호를 입력하세요."
                             android:imeOptions="actionDone"
